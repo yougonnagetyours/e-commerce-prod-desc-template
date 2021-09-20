@@ -17,10 +17,13 @@ export default makeStyles((theme) => ({
   },
   cardActions: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
   },
   cardContent: {
     display: 'flex',
     justifyContent: 'space-between',
   },
+  button: {
+    color: 'black',
+  }
 }));
