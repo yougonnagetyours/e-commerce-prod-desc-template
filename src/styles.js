@@ -25,5 +25,6 @@ export default makeStyles((theme) => ({
   },
   button: {
     color: 'black',
+    width: '100%',
   }
 }));
