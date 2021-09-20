@@ -7,7 +7,7 @@ function App() {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} style={{ borderRadius: '0' }}>
       <CardMedia
           className={classes.media}
           component='img'
