@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
   },
   root: {
     maxWidth: '100%',
-    borderRadius '0': 
+    borderRadius: '0': 
   },
   media: {
     height: '100%',
