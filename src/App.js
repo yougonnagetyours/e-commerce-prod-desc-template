@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className={classes.toolbar}></div>
+      {/*<div className={classes.toolbar}></div>*/}
       <Container maxWidth="sm">
         <img src="https://cdn.pixabay.com/photo/2017/07/28/16/30/bee-pollen-2549125_960_720.jpg" alt="productPhoto"></img> 
         <Typography variant='h4' gutterBottom>Product</Typography>
