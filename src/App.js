@@ -1,6 +1,6 @@
 import './App.css';
 import useStyles from './styles';
-import { Card, CardMedia, CardContent, CardActions, Typography, Button } from '@material-ui/core';
+import { Card, CardMedia, CardContent, CardActions, Typography, Button, Grid } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
 function App() {
 
