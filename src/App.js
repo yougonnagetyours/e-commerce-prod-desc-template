@@ -14,7 +14,7 @@ function App() {
           title="Product"
                 />
       <CardContent>
-        <Typography variant='h5' gutterBottom>
+        <Typography variant='h4' gutterBottom>
           Product
         </Typography>
         <Typography variant='h6' gutterBottom>
@@ -26,6 +26,7 @@ function App() {
       <CardActions disableSpacing className={classes.cardActions}>
         <Button className={classes.button} variant="outlined" aria-label="Dodaj do koszyka" gutterBottom>Dodaj do koszyka</Button>
       </CardActions>
+      <Typography variant='h5' gutterBottom>Może spodobac ci się także</Typography>
     </Card>
         
   );
