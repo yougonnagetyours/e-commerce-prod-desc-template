@@ -1,22 +1,36 @@
 import './App.css';
-// import useStyles from './styles';
-import { Container, Typography } from '@material-ui/core';
+import useStyles from './styles';
+import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
+import { AddShoppingCart } from '@material-ui/icons';
 function App() {
 
-  //const classes = useStyles();
+  const classes = useStyles();
 
   return (
-    <>
-      {/*<div className={classes.toolbar}></div>*/}
-      <Container maxWidth="sm">
-        <Container maxWidth="sm">
-          <img src="https://cdn.pixabay.com/photo/2017/07/28/16/30/bee-pollen-2549125_960_720.jpg" alt="productPhoto"></img> 
-        </Container>
-          <Typography variant='h4' gutterBottom>Product</Typography>
-          <Typography variant='h5' gutterBottom>25.90 zł</Typography>
-          <Typography variant='body1' gutterBottom>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
-      </Container>
-    </>
+    <Card className={classes.root}>
+      <CardMedia
+          className={classes.media}
+          image="https://cdn.pixabay.com/photo/2017/07/28/16/30/bee-pollen-2549125_960_720.jpg"
+          title="Product"
+                />
+      <CardContent>
+        <div className={classes.cardContent}>
+          <Typography variant='h5' gutterBottom>
+                      {product.name}
+          </Typography>
+          <Typography variant='h5'>
+                      {product.price.formatted_with_symbol}
+          </Typography>
+        </div>
+          <Typography variant="body2" color="textSecondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Typography>
+      </CardContent>
+        <CardActions disableSpacing className={classes.cardActions}>
+          <IconButton aria-label="Dodaj do koszyka" onClick={handleAddToCart}>
+            <AddShoppingCart />
+          </IconButton>
+        </CardActions>
+    </Card>
+        
   );
 }
 
