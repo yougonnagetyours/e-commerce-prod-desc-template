@@ -11,8 +11,8 @@ export default makeStyles((theme) => ({
     maxWidth: '75%',
   },
   media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
+    height: 100%,
+    // paddingTop: '56.25%', // 16:9
   },
   cardActions: {
     display: 'flex',
