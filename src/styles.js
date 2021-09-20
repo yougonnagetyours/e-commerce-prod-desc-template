@@ -24,6 +24,6 @@ export default makeStyles((theme) => ({
     justifyContent: 'space-between',
   },
   button: {
-    color: 'black',
+    //color: 'black',
   }
 }));
