@@ -26,7 +26,7 @@ function App() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing className={classes.cardActions}>
-        <Button className={classes.button} outlined aria-label="Dodaj do koszyka">Dodaj do koszyka</Button>
+        <Button className={classes.button} variant="outlined" aria-label="Dodaj do koszyka">Dodaj do koszyka</Button>
       </CardActions>
     </Card>
         
