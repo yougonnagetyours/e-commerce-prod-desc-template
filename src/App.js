@@ -27,7 +27,9 @@ function App() {
       <CardActions disableSpacing className={classes.cardActions}>
         <Button className={classes.button} variant="outlined" aria-label="Dodaj do koszyka" gutterBottom>Dodaj do koszyka</Button>
       </CardActions>
-      <Typography variant='h5' gutterBottom>Może spodobac ci się także</Typography>
+      <CardContent>
+        <Typography variant='h5' gutterBottom>Może spodobac ci się także</Typography>
+      </CardContent>
       <Grid container justify="center" spacing={4}>
         
       </Grid>
