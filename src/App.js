@@ -1,6 +1,6 @@
 import './App.css';
 import useStyles from './styles';
-import { Container } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 function App() {
 
   const classes = useStyles();
