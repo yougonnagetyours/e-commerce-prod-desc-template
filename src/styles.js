@@ -8,7 +8,8 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(3),
   },
   root: {
-    maxWidth: '75%',
+    maxWidth: '100%',
+    borderRadius '0': 
   },
   media: {
     height: '100%',
