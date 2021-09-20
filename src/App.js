@@ -10,7 +10,6 @@ function App() {
     <Card className={classes.root} style={{ borderRadius: '0' }}>
       <CardMedia
           className={classes.media}
-          
           image="https://cdn.pixabay.com/photo/2017/07/28/16/30/bee-pollen-2549125_960_720.jpg"
           title="Product"
                 />

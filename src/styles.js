@@ -12,7 +12,7 @@ export default makeStyles((theme) => ({
     borderRadius: '0',
   },
   media: {
-    height: '100%',
+    height: '75vh',
     // paddingTop: '56.25%', // 16:9
   },
   cardActions: {
